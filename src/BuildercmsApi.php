@@ -267,12 +267,9 @@ class BuildercmsApi
      */
     public function filter_external_id($id)
     {
+        // use a more robust sanitization method
+        $id = sanitize_title_with_dashes($id);
 
-        $id = strtolower($id);
-        //replace any spaces and underscores with a dash (used in slug)
-        if (strpos($id, 'ph') > -1) {
-            $id = str_replace([' ', '_',], '-', $id);
-        }
         return $id;
     }
 

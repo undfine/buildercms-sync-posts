@@ -4,7 +4,7 @@ namespace BCMS;
  * Plugin Name: BuilderCMS Sync Posts
  * Plugin URI:
  * Description: This plugin connects to the BuilderCMS to sync posts and custom post–types to current inventory
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: Dustin Wight
  * Author URI:
  * License: GPL3
